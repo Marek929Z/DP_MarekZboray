@@ -2,15 +2,10 @@
 ## Automatizácia spracovania ionosférických dát pomocou hlbokého učenia
 
 Študijný program: Hospodárska informatika  
-
-Študijný odbor: Informatika
-
-Školiace pracovisko: Ústav umelej inteligencie (ÚUI)
-
-Školiteľ: doc. Ing. Peter Butka, PhD.
-
-Konzultanti: Ing. Viera Krešňasková, PhD.; RNDr. Šimon Mackovjak, PhD.
-
+Študijný odbor: Informatika  
+Školiace pracovisko: Ústav umelej inteligencie (ÚUI)  
+Školiteľ: doc. Ing. Peter Butka, PhD.  
+Konzultanti: Ing. Viera Krešňasková, PhD.; RNDr. Šimon Mackovjak, PhD.  
 Vypracoval: Bc. Marek Zboray
 
 ### Popis práce
