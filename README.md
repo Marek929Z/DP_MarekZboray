@@ -13,5 +13,5 @@ Táto diplomová práca sa zaoberá automatizovaným spracovaním ionosférický
 
 
 ### Dáta
-Dáta použité v diplomovej práci sú dostupné na školskom datalabe v rámci Ústavu umelej inteligencie. Nachádzajú sa v jednotlivých zásielkach na ceste: <u>data/lightning/MarekZboray/DP/data/RawData</u>
+Dáta použité v diplomovej práci sú dostupné na školskom datalabe v rámci Ústavu umelej inteligencie. Nachádzajú sa v jednotlivých zásielkach na ceste: **data/lightning/MarekZboray/DP/data/RawData**
 
