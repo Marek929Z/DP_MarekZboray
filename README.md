@@ -1,5 +1,5 @@
 # Diplomová práca
-## **Automatizácia spracovania ionosférických dát pomocou hlbokého učenia**
+## Automatizácia spracovania ionosférických dát pomocou hlbokého učenia
 
 Študijný program: Hospodárska informatika  
 Študijný odbor: Informatika  
