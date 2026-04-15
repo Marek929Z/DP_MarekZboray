@@ -14,6 +14,70 @@ Táto diplomová práca sa zaoberá automatizovaným spracovaním ionosférický
 ### Návod na použitie
 Je potrebné mať nainštalované prostredie, ktoré podporuje súbory typu .ipynb. Kedže ide o súbory typu Jupyter Notebook, jednotlive bloky predstavujú čiastkovú funkcionalitu celého kódu. Jednotlivé časti kódu (bloky) sú priamo popísané v každom súbore
 
+### Štruktúra repozitára
+Repozitár je rozdelený podľa jednotlivých etáp spracovania dát a tréningu modelov. Každý priečinok alebo notebook predstavuje samostatnú časť pipeline, ktorá bola použitá v diplomovej práci.
+
+📁 DeepLabV3
+Tento priečinok obsahuje implementáciu segmentačného modelu DeepLabV3+, ktorý bol trénovaný na segmentáciu oblastí ovplyvnených spread‑F javmi.
+Obsah priečinka:
+
+Tréningové skripty – príprava datasetu, augmentácie, definícia architektúry, tréning a validácia.
+
+Konfiguračné súbory – parametre modelu, nastavenia učenia.
+
+Výstupy modelu – ukážky predikovaných masiek, uložené checkpointy.
+
+📁 U-net
+Priečinok obsahuje implementáciu modelu U‑Net, ktorý bol použitý ako alternatívna segmentačná architektúra pre porovnanie s DeepLabV3+.
+Obsah priečinka:
+
+Tréningové notebooky – kompletný proces učenia, vizualizácie priebehu loss/accuracy.
+
+Modelové váhy – uložené checkpointy najlepších epoch.
+
+Predikcie – ukážky segmentačných masiek generovaných modelom.
+
+Notebooky
+📄 1_Algorithmic_mask_creation.ipynb
+Prvý krok pipeline. Notebook obsahuje:
+
+algoritmickú tvorbu segmentačných masiek zo spektrogramov,
+
+detekciu štruktúr spread‑F pomocou prahovania a morfologických operácií,
+
+generovanie ground‑truth masiek pre trénovanie modelov.
+
+📄 2_Algorithmic_mask_creation.ipynb
+Druhá verzia algoritmickej tvorby masiek:
+
+vylepšené prahovanie,
+
+robustnejšie morfologické operácie,
+
+porovnanie kvality masiek s verziou 1.
+
+📄 Cropping_spectrograms.ipynb
+Notebook určený na:
+
+načítanie pôvodných spektrogramov,
+
+ich orezanie na relevantné časovo‑frekvenčné oblasti,
+
+normalizáciu a prípravu datasetu pre segmentačné modely.
+
+📄 Dashboard_PredictAnalysis.ipynb
+Notebook slúži na:
+
+načítanie predikovaných masiek,
+
+rekonštrukciu dopplerovského priebehu signálu,
+
+extrakciu parametrov potrebných pre detekciu spread‑F udalostí,
+
+vizualizáciu výsledkov v prehľadnom dashboarde.
+
+📄 README.md
+Tento súbor obsahuje popis diplomovej práce, návod na použitie a štruktúru repozitára.
 
 ### Dáta
 Dáta použité v diplomovej práci sú dostupné na školskom datalabe v rámci Ústavu umelej inteligencie. Nachádzajú sa v jednotlivých zásielkach na ceste: **data/lightning/MarekZboray/DP/data/RawData**
