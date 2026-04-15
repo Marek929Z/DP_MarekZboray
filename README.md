@@ -6,6 +6,7 @@
 Školiace pracovisko: Ústav umelej inteligencie (ÚUI)  
 Školiteľ: doc. Ing. Peter Butka, PhD.  
 Konzultanti: Ing. Viera Krešňasková, PhD.; RNDr. Šimon Mackovjak, PhD.  
+Doménoví experti: RNDr. Jaroslav Chum, Ph.D.; Mgr. Jan Rusz, Ph.D.
 Vypracoval: Bc. Marek Zboray
 
 ### Abstrakt 
