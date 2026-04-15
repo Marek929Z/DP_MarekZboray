@@ -45,9 +45,8 @@ Druhá verzia algoritmickej tvorby masiek:
 
 #### Cropping_spectrograms.ipynb
 Notebook určený na:
-- načítanie pôvodných spektrogramov,
-- ich orezanie na relevantné časovo‑frekvenčné oblasti,
-- normalizáciu a prípravu datasetu pre segmentačné modely.
+- načítanie pôvodných spektrogramov po jednotlivých zásielkach,
+- ich orezanie na relevantné časovo‑frekvenčné oblasti.
 
 #### Dashboard_PredictAnalysis.ipynb
 Notebook slúži na:
