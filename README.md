@@ -54,7 +54,7 @@ Notebook slúži na:
 - rekonštrukciu dopplerovského priebehu signálu,
 - extrakciu parametrov potrebných pre detekciu spread‑F udalostí,
 - vizualizáciu výsledkov v prehľadnom dashboarde.
-- 
+  
 #### README.md
 Tento súbor obsahuje popis diplomovej práce, návod na použitie a štruktúru repozitára.
 
