@@ -19,18 +19,20 @@ Je potrebné mať nainštalované prostredie, ktoré podporuje súbory typu .ipy
 Repozitár je rozdelený podľa jednotlivých etáp spracovania dát a tréningu modelov. Každý priečinok alebo notebook predstavuje samostatnú časť pipeline, ktorá bola použitá v diplomovej práci.
 
 #### Priečinok DeepLabV3
-Tento priečinok obsahuje implementáciu segmentačného modelu DeepLabV3, ktorý bol trénovaný na segmentáciu oblastí ovplyvnených spread‑F javmi.
+Tento priečinok obsahuje implementáciu segmentačného modelu DeepLabV3. Jednotlivé notebooky obsahuju tréningové skripty.
 Obsah priečinka:
-- Tréningové skripty – príprava datasetu, augmentácie, definícia architektúry, tréning a validácia.
-- Konfiguračné súbory – parametre modelu, nastavenia učenia.
-- Výstupy modelu – ukážky predikovaných masiek, uložené checkpointy.
+- 10_11_0DeepLabV3.ipynb (model trénovaný na všetkých dátach, bez dilatacie masiek)
+- 10_11_2DeepLabV3.ipynb (model trénovaný na všetkých dátach, s dilatacie masiek - kernel_size = 2)
+- 10_11_3DeepLabV3.ipynb (model trénovaný na všetkých dátach, s dilatacie masiek - kernel_size = 3)
+- 10_12DeepLabV3.ipynb (model trénovaný na všetkých dátach, s dilatacie masiek - kernel_size = 3, opätovné pretréno-
+vanie modelu 10_11_3DeepLabV3)
+- 10_13DeepLabV3.ipynb
 
 #### Priečinok U-net
 Priečinok obsahuje implementáciu modelu U‑Net, ktorý bol použitý ako alternatívna segmentačná architektúra pre porovnanie s DeepLabV3.
 Obsah priečinka:
-- Tréningové notebooky – kompletný proces učenia, vizualizácie priebehu loss/accuracy.
-- Modelové váhy – uložené checkpointy najlepších epoch.
-- Predikcie – ukážky segmentačných masiek generovaných modelom.
+- 3U-net.ipynb
+- 4U-net.ipynb
 
 #### 1_Algorithmic_mask_creation.ipynb
 Prvý krok pipeline. Notebook obsahuje:
@@ -42,6 +44,7 @@ Prvý krok pipeline. Notebook obsahuje:
 Druhá verzia algoritmickej tvorby masiek:
 - vylepšené prahovanie,
 - robustnejšie morfologické operácie,
+- automaticka detekcia jednotlivých frekvencií(v 1_Algorithmic_mask_creation.ipynb len pôvodne staticke delenie spektrogramu na 3 časti)
 
 #### Cropping_spectrograms.ipynb
 Notebook určený na:
@@ -50,14 +53,16 @@ Notebook určený na:
 
 #### Dashboard_PredictAnalysis.ipynb
 Notebook slúži na:
-- načítanie predikovaných masiek,
-- rekonštrukciu dopplerovského priebehu signálu,
+- načítanie spektrogramov a prislušných .mat súborov,
+- predikcia masiek, zvoleným modelom,
 - extrakciu parametrov potrebných pre detekciu spread‑F udalostí,
 - vizualizáciu výsledkov v prehľadnom dashboarde.
+
+### Dáta
+Dáta použité v diplomovej práci sú dostupné na školskom datalabe v rámci Ústavu umelej inteligencie. Nachádzajú sa v jednotlivých zásielkach na ceste: **data/lightning/MarekZboray/DP/data/RawData**
   
 #### README.md
 Tento súbor obsahuje popis diplomovej práce, návod na použitie a štruktúru repozitára.
 
-### Dáta
-Dáta použité v diplomovej práci sú dostupné na školskom datalabe v rámci Ústavu umelej inteligencie. Nachádzajú sa v jednotlivých zásielkach na ceste: **data/lightning/MarekZboray/DP/data/RawData**
+
 
