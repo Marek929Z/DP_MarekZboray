@@ -25,7 +25,7 @@ Obsah priečinka:
 - 10_11_2DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 2,  predtrénované váhy weights=imagenet)
 - 10_11_3DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet)
 - 10_12DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3, opätovné pretréno-
-vanie modelu 10_11_3DeepLabV3)
+vanie modelu 10_11_3DeepLabV3, weights=None)
 - 10_13DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3, náhodná inicializácia
 weights=None)
 
