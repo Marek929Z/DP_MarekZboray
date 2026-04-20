@@ -21,18 +21,19 @@ Repozitár je rozdelený podľa jednotlivých etáp spracovania dát a tréningu
 #### Priečinok DeepLabV3
 Tento priečinok obsahuje implementáciu segmentačného modelu DeepLabV3. Jednotlivé notebooky obsahuju tréningové skripty.
 Obsah priečinka:
-- 10_11_0DeepLabV3.ipynb (model trénovaný na všetkých dátach, bez dilatacie masiek)
-- 10_11_2DeepLabV3.ipynb (model trénovaný na všetkých dátach, s dilatacie masiek - kernel_size = 2)
-- 10_11_3DeepLabV3.ipynb (model trénovaný na všetkých dátach, s dilatacie masiek - kernel_size = 3)
-- 10_12DeepLabV3.ipynb (model trénovaný na všetkých dátach, s dilatacie masiek - kernel_size = 3, opätovné pretréno-
+- 10_11_0DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, bez dilatacie masiek, predtrénované váhy weights=imagenet)
+- 10_11_2DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 2,  predtrénované váhy weights=imagenet)
+- 10_11_3DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet)
+- 10_12DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3, opätovné pretréno-
 vanie modelu 10_11_3DeepLabV3)
-- 10_13DeepLabV3.ipynb
+- 10_13DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3, náhodná inicializácia
+weights=None)
 
 #### Priečinok U-net
 Priečinok obsahuje implementáciu modelu U‑Net, ktorý bol použitý ako alternatívna segmentačná architektúra pre porovnanie s DeepLabV3.
 Obsah priečinka:
-- 3U-net.ipynb
-- 4U-net.ipynb
+- 3U-net.ipynb (model trénovaný na časti dát - zásielka 10/13, bez dilatacie masiek)
+- 4U-net.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, bez dilatacie masiek)
 
 #### 1_Algorithmic_mask_creation.ipynb
 Prvý krok pipeline. Notebook obsahuje:
