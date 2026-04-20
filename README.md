@@ -67,7 +67,7 @@ Z dôvodu veľkosti súborov nie sú natrénované modely uložené priamo v rep
 
 Tieto materiály umožňujú používateľovi okamžite pracovať s modelmi bez potreby opätovného trénovania modelov.
 
-### Dáta
+#### Dáta
 Dáta použité v diplomovej práci sú dostupné na školskom datalabe v rámci Ústavu umelej inteligencie. Nachádzajú sa v jednotlivých zásielkach. Surové dáta na ceste: **data/lightning/MarekZboray/DP/data/RawData**, predspracované spektrogramy na ceste **data/lightning/MarekZboray/DP/data/CropPictures** a ručne vytvorené masky na ceste **data/lightning/MarekZboray/DP/data/RucneMasky**.
   
 #### README.md
