@@ -29,6 +29,11 @@ vanie modelu 10_11_3DeepLabV3, weights=None)
 - 10_13DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3, náhodná inicializácia
 weights=None)
 
+#### Priečinok Pix2pix
+Priečinok obsahuje implementáciu modelu Pix2pix, ktorý bol použitý ako alternatívna segmentačná architektúra pre porovnanie s DeepLabV3.
+Obsah priečinka:
+- pix2pix_all_data.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, bez dilatacie masiek)
+
 #### Priečinok U-net
 Priečinok obsahuje implementáciu modelu U‑Net, ktorý bol použitý ako alternatívna segmentačná architektúra pre porovnanie s DeepLabV3.
 Obsah priečinka:
