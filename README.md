@@ -59,6 +59,13 @@ Notebook slúži na:
 - extrakciu parametrov potrebných pre detekciu spread‑F udalostí,
 - vizualizáciu výsledkov v prehľadnom dashboarde.
 
+#### Release
+Z dôvodu veľkosti súborov nie sú natrénované modely uložené priamo v repozitári. Všetky finálne verzie modelov použitých v diplomovej práci sú dostupné v sekcii Releases:
+- natrénované modely DeepLabV3 (všetky verzie uvedené v priečinku DeepLabV3),
+- natrénované modely U‑Net (všetky verzie z priečinka U-net),
+- video‑tutoriál, ktorý ukazuje, ako pracovať s notebookom Dashboard_PredictAnalysis.ipynb.
+Tieto materiály umožňujú používateľovi okamžite spustiť inferenciu bez potreby opätovného trénovania modelov.
+
 ### Dáta
 Dáta použité v diplomovej práci sú dostupné na školskom datalabe v rámci Ústavu umelej inteligencie. Nachádzajú sa v jednotlivých zásielkach. Surové dáta na ceste: **data/lightning/MarekZboray/DP/data/RawData**, predspracované spektrogramy na ceste **data/lightning/MarekZboray/DP/data/CropPictures** a ručne vytvorené masky na ceste **data/lightning/MarekZboray/DP/data/RucneMasky**.
   
