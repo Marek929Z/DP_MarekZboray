@@ -60,7 +60,7 @@ Notebook slúži na:
 - vizualizáciu výsledkov v prehľadnom dashboarde.
 
 ### Dáta
-Dáta použité v diplomovej práci sú dostupné na školskom datalabe v rámci Ústavu umelej inteligencie. Nachádzajú sa v jednotlivých zásielkach na ceste: **data/lightning/MarekZboray/DP/data/RawData**
+Dáta použité v diplomovej práci sú dostupné na školskom datalabe v rámci Ústavu umelej inteligencie. Nachádzajú sa v jednotlivých zásielkach. Surové dáta na ceste: **data/lightning/MarekZboray/DP/data/RawData**, predspracované spektrogramy na ceste **data/lightning/MarekZboray/DP/data/CropPictures** a ručne vytvorené masky na ceste **data/lightning/MarekZboray/DP/data/RucneMasky**.
   
 #### README.md
 Tento súbor obsahuje popis diplomovej práce, návod na použitie a štruktúru repozitára.
