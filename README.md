@@ -21,14 +21,16 @@ Repozitár je rozdelený podľa jednotlivých etáp spracovania dát a tréningu
 #### Priečinok DeepLabV3
 Tento priečinok obsahuje implementáciu segmentačného modelu DeepLabV3. Jednotlivé notebooky obsahuju tréningové skripty.
 Obsah priečinka:
-- 10_11_0DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, bez dilatacie masiek, predtrénované váhy weights=imagenet)
-- 10_11_2DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 2,  predtrénované váhy weights=imagenet)
-- 10_11_3DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet)
+- 10_11_0DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, bez dilatacie masiek, predtrénované váhy weights=imagenet, zložitejšia augmentácia)
+- 10_11_2DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 2,  predtrénované váhy weights=imagenet, zložitejšia augmentácia)
+- 10_11_3DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet, zložitejšia augmentácia)
 - 10_12DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 3, opätovné pretréno-
-vanie modelu 10_11_3DeepLabV3, weights=None)
+vanie modelu 10_11_3DeepLabV3, weights=None, zložitejšia augmentácia)
 - 10_13DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 3, náhodná inicializácia
-weights=None)
-- 9DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 9/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet)
+weights=None, zložitejšia augmentácia)
+- 9DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 9/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet, zložitejšia augmentácia)
+- 7DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 7/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet, zložitejšia augmentácia)
+- 6DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 7/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet, jemná augmentácia)
 
 #### Priečinok Pix2pix
 Priečinok obsahuje implementáciu modelu Pix2pix, ktorý bol použitý ako alternatívna segmentačná architektúra pre porovnanie s DeepLabV3.
