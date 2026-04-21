@@ -68,6 +68,7 @@ Notebook slúži na:
 Z dôvodu veľkosti súborov nie sú natrénované modely uložené priamo v repozitári. Všetky finálne verzie modelov použitých v diplomovej práci sú dostupné v sekcii Releases:
 - natrénované modely DeepLabV3 (všetky verzie uvedené v priečinku DeepLabV3),
 - natrénované modely U‑Net (všetky verzie z priečinka U-net),
+- natrénovaný model pix2pix na všetkých dátach,
 - video‑tutoriál, ktorý ukazuje, ako pracovať s notebookom Dashboard_PredictAnalysis.ipynb.  
 
 Tieto materiály umožňujú používateľovi okamžite pracovať s modelmi bez potreby opätovného trénovania modelov.
