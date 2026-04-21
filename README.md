@@ -21,24 +21,25 @@ Repozitár je rozdelený podľa jednotlivých etáp spracovania dát a tréningu
 #### Priečinok DeepLabV3
 Tento priečinok obsahuje implementáciu segmentačného modelu DeepLabV3. Jednotlivé notebooky obsahuju tréningové skripty.
 Obsah priečinka:
-- 10_11_0DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, bez dilatacie masiek, predtrénované váhy weights=imagenet)
-- 10_11_2DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 2,  predtrénované váhy weights=imagenet)
-- 10_11_3DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet)
-- 10_12DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3, opätovné pretréno-
+- 10_11_0DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, bez dilatacie masiek, predtrénované váhy weights=imagenet)
+- 10_11_2DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 2,  predtrénované váhy weights=imagenet)
+- 10_11_3DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet)
+- 10_12DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 3, opätovné pretréno-
 vanie modelu 10_11_3DeepLabV3, weights=None)
-- 10_13DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, s dilatáciou masiek - kernel_size = 3, náhodná inicializácia
+- 10_13DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 3, náhodná inicializácia
 weights=None)
+- 9DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 9/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet)
 
 #### Priečinok Pix2pix
 Priečinok obsahuje implementáciu modelu Pix2pix, ktorý bol použitý ako alternatívna segmentačná architektúra pre porovnanie s DeepLabV3.
 Obsah priečinka:
-- pix2pix_all_data.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, bez dilatacie masiek)
+- pix2pix_all_data.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, bez dilatacie masiek)
 
 #### Priečinok U-net
 Priečinok obsahuje implementáciu modelu U‑Net, ktorý bol použitý ako alternatívna segmentačná architektúra pre porovnanie s DeepLabV3.
 Obsah priečinka:
-- 3U-net.ipynb (model trénovaný na časti dát - zásielka 10/13, bez dilatacie masiek)
-- 4U-net.ipynb (model trénovaný na všetkých dátach - zásielka 13/13, bez dilatacie masiek)
+- 3U-net.ipynb (model trénovaný na časti dát - zásielky 10/13, bez dilatacie masiek)
+- 4U-net.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, bez dilatacie masiek)
 
 #### 1_Algorithmic_mask_creation.ipynb
 Prvý krok pipeline. Notebook obsahuje:
