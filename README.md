@@ -28,7 +28,7 @@ Obsah priečinka:
 vanie modelu 10_11_3DeepLabV3, weights=None, zložitejšia augmentácia)
 - 10_13DeepLabV3.ipynb (model trénovaný na všetkých dátach - zásielky 13/13, s dilatáciou masiek - kernel_size = 3, náhodná inicializácia
 weights=None, zložitejšia augmentácia)
-- 9DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 9/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet, zložitejšia augmentácia)
+- 9DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 9/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet, jemná augmentácia)
 - 8DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 9/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet, jemná augmentácia)
 - 7DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 7/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet, zložitejšia augmentácia)
 - 6DeepLabV3.ipynb (model trénovaný na časti dát - zásielky 7/13, s dilatáciou masiek - kernel_size = 3,  predtrénované váhy weights=imagenet, jemná augmentácia)
